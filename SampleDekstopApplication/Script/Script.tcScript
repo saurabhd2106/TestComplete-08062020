@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Unit1" key="{5D23E280-94CC-463A-A910-BECF70AE7043}" path="Unit1.svb" />
+		<child name="LearnVBBasics" key="{E59EAA57-FEEA-41AE-9760-52C4E05EEBC0}" path="LearnVBBasics.svb" />
+		<child name="ArrayExamples" key="{2D506F99-5C13-4197-AA23-3E3D31CD85CB}" path="ArrayExamples.svb" />
+		<child name="VBScriptBasics" key="{A2D460B6-DE94-4296-BA3E-C3CB13F975D9}" path="VBScriptBasics.svb" />
+	</children>
+</Root>

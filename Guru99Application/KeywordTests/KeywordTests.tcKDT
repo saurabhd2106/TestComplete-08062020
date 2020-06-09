@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="LoginToGuru99Application" key="{49664BCC-F669-40B1-8255-56843E3E5C27}" path="LoginToGuru99Application.tcKDTest" />
+		<child name="AddAcount" key="{DF38EA97-F2C0-4E89-BC34-595AE145BA6B}" path="AddAcount.tcKDTest" />
+	</children>
+</Root>

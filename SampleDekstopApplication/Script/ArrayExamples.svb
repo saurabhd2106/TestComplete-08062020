@@ -1,0 +1,49 @@
+﻿
+Function Demo
+
+  ArrayExample2
+  
+  ArrayExample
+  
+End Function
+
+
+Sub ArrayExample2
+   Dim arr(5)
+
+  arr(0) = 10
+  arr(1) = 13
+  arr(2) = 15
+  arr(3) = 10
+  arr(4) = 16
+  arr(5) = 17
+  
+  Log.Message(arr(4))
+  
+  For count = 0 To UBound(arr)
+    Log.Message(arr(count))
+  Next
+  
+End Sub
+
+
+Function ArrayExample
+
+  Dim arr(5)
+
+  arr(0) = 10
+  arr(1) = 13
+  arr(2) = 15
+  arr(3) = 10
+  arr(4) = 16
+  arr(5) = 17
+  
+  Log.Message(arr(4))
+  
+  For count = 0 To UBound(arr)
+    Log.Message(arr(count))
+  Next
+  
+  ArrayExample = 20
+  
+End Function

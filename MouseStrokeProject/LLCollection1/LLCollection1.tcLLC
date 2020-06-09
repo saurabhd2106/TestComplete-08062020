@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{2D89293F-6B07-4679-9906-EFAE4B1A433C}" version="14.0">
+	<children>
+		<child name="MouseStroke_Saurabh" key="{21D7DC06-2AAA-4B40-BDE5-90C888546010}" path="MouseStroke_Saurabh.tcLLP" />
+		<child name="MouseStroke_Soru" key="{903B9BFD-9F57-4D11-A597-12254E75939B}" path="MouseStroke_Soru.tcLLP" />
+	</children>
+</Root>

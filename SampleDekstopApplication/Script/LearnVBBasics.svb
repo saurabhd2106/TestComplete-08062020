@@ -1,0 +1,51 @@
+﻿
+Function LoopStatements
+  For count = 1 to 10
+    Log.Message(count)
+  Next
+
+End Function
+
+Function ShowValue
+  Dim value
+  value =  ReturnSomeValue()
+  Log.Message(value)
+End Function
+
+Function ReturnSomeValue
+  
+  ReturnSomeValue = "Saurabh"
+
+End Function
+
+Function conditionTest
+  
+  Dim firstNumber
+  Dim secondNumber
+  
+  firstNumber = 10
+  secondNumber = 20
+  
+  
+  If firstNumber >  secondNumber Then
+    Log.Message("FirstNumber is greater")
+    ElseIf secondNumber > firstNumber Then
+    Log.Message("Second Number is greater")
+    Else
+    Log.Message("Both are equal")
+  End If
+  
+  Dim ChooseNumber
+  
+  ChooseNumber = 20
+  
+  Select case ChooseNumber
+    Case 1
+      Log.Message("Number 1")
+    Case 2
+      Log.Message("Number 2")
+    Case Else
+      Log.Error("Number not known")
+  End Select
+
+End Function

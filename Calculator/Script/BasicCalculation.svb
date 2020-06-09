@@ -1,0 +1,88 @@
+﻿Function DemoCalculation
+  Call Calculate(200,44,"+")
+End Function
+
+Function Calculate(firstNumber, secondNumber, operator)
+
+  Call Aliases.Clear.Click
+  Call ClickNumber(firstNumber)
+  Call ClickOperator(operator)
+  Call ClickNumber(secondNumber)
+  Call Aliases.Equals.Click
+  
+  Call OCR.Recognize(Aliases.TextContainer).CheckText("*244*")
+  
+End Function
+
+ Function ClickOperator(operator)
+        Select case operator
+          Case "+"
+            Call Aliases.Plus.Click
+          Case "-"
+            Call Aliases.Minus.Click
+          Case "*"
+            Call Aliases.Multiply_by.Click
+          Case "/"
+            Call Aliases.Divide_by.Click
+          Case "square"
+            Call Aliases.Square.Click
+          Case "reciprocal"
+            Call Aliases.Reciprocal.Click
+          Case "square_root"
+            Call Aliases.Square_root.Click
+          Case Else
+            Log.Error("Invalid Operator")
+        End Select
+ End Function
+
+Function ClickNumber(ByVal var)
+      
+      Dim revVar 
+        revVar = strReverse(var)
+      
+      Dim LenOfVar
+      LenOfVar = lengthOfVariable(var)
+        
+        Dim digit
+            
+        For count = 1 to LenOfVar
+        
+        digit = Fix(revVar Mod 10)
+        revVar = Fix(revVar / 10)
+        
+        Select case digit
+        Case 1
+          Call Aliases.One.Click
+        Case 2
+          Call Aliases.Two.Click
+        Case 3
+          Call Aliases.Three.Click
+        Case 4
+          Call Aliases.Four.Click
+        Case 5
+          Call Aliases.Five.Click
+        Case 6
+          Call Aliases.Six.Click
+        Case 7
+          Call Aliases.Seven.Click
+        Case 8 
+          Call Aliases.Eight.Click
+        Case 9
+          Call Aliases.Nine.Click
+        Case 0
+          Call Aliases.Zero.Click
+      End Select
+      Next
+End Function
+
+Function lengthOfVariable(ByVal var)
+    Dim lenOfVar
+    
+    lenOfVar = 0
+       while (var > 0)
+          var = Int(var/10)
+          LenOfVar = LenOfVar + 1
+        Wend
+       lengthOfVariable = LenOfVar
+End Function
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{542824DF-C7E0-4812-A863-78D9480E3EDD}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="43990.9333217593" objectName="Aliases.Microsoft_WindowsCalculator.Calculator.LandmarkTarget.Number_pad.Two" objectLeft="90" objectTop="421" objectRight="166" objectBottom="473" clickPointX="123" clickPointY="457" imageFileName="tcvi5604410966842.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="43990.9333333333" objectName="Aliases.Microsoft_WindowsCalculator.Calculator.LandmarkTarget.Standard_operators.Plus" objectLeft="278" objectTop="440" objectRight="292" objectBottom="454" clickPointX="288" clickPointY="444" imageFileName="tcvi5604487566844.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="43990.9333449074" objectName="Aliases.Microsoft_WindowsCalculator.Calculator.LandmarkTarget.Number_pad.Three" objectLeft="169" objectTop="421" objectRight="245" objectBottom="473" clickPointX="191" clickPointY="444" imageFileName="tcvi5604600066846.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="43990.9333564815" objectName="Aliases.Microsoft_WindowsCalculator.Calculator.LandmarkTarget.Standard_operators.Equals" objectLeft="278" objectTop="494" objectRight="292" objectBottom="508" clickPointX="290" clickPointY="501" imageFileName="tcvi5604731266848.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

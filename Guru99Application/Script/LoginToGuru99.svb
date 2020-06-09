@@ -1,0 +1,24 @@
+﻿Sub LoginToGuru99Application()
+  Dim userId, password
+  
+  'Launches the specified browser and opens the specified URL in it.
+  Call Browsers.Item(btChrome).Run("http://demo.guru99.com/v4")
+  
+  userId = "mngr264767"
+  password = "vUqumeh"
+  
+  'Enters text in the text box.
+  Call Aliases.textboxUid.SetText(userId)
+  
+  'Enters text in the text box.
+  Call Aliases.passwordboxPassword.SetText(password)
+  
+  'Clicks the 'submitbuttonLogin' button.
+  Call Aliases.submitbuttonLogin.ClickButton
+  
+  ' TODO 1 -oMehak : Wait is not required : Try adding varing wait
+  
+  'Waits until the browser loads the page and is ready to accept user input.
+  Call Aliases.browser.pageIndex.Wait
+  
+End Sub

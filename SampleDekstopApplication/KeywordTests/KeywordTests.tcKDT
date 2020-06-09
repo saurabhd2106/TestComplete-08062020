@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="CreateNewOrder" key="{620B02D1-5D0E-4165-82DF-887EAE499901}" path="CreateNewOrder.tcKDTest" />
+		<child name="CreateNewOrderManually" key="{7792E91F-6507-48A3-AB7B-5C58D86E1663}" path="CreateNewOrderManually.tcKDTest" />
+		<child name="AddNewOrder_FromInternalTable" key="{3AE25974-13BF-4D7E-A400-311D10C1E852}" path="AddNewOrder_FromInternalTable.tcKDTest" />
+		<child name="AddNewOrder_FromExcel" key="{D048581B-E6F6-4C7F-870B-75990160B1E2}" path="AddNewOrder_FromExcel.tcKDTest" />
+		<child name="AddNewOrder_FromDatabase" key="{18AB7B59-D915-4B17-A3D8-D3115D7A4DC7}" path="AddNewOrder_FromDatabase.tcKDTest" />
+	</children>
+</Root>

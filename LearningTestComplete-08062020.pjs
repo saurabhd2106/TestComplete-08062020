@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{129AEBAB-6AF4-4CCF-829A-E896193E5654}">
+	<children>
+		<child name="SampleDekstopApplication" key="{BD836F1E-DDB3-4397-8A47-75FA55E665D8}" path="SampleDekstopApplication\SampleDekstopApplication.mds" />
+		<child name="Guru99Application" key="{B4BE3CC8-E4B8-4342-B150-673F81F0ED67}" path="Guru99Application\Guru99Application.mds" />
+		<child name="MouseStrokeProject" key="{83B360A5-98E8-4D8B-8485-8C56FD1AA53D}" path="MouseStrokeProject\MouseStrokeProject.mds" />
+		<child name="Calculator" key="{6818B67E-7D4B-4A2F-8979-DAD955C2C586}" path="Calculator\Calculator.mds" />
+	</children>
+	<testItems key="{2CAEDC78-64A3-435A-95C5-D0886DF46AAF}">
+		<children>
+			<testItem key="{BD836F1E-DDB3-4397-8A47-75FA55E665D8}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{B4BE3CC8-E4B8-4342-B150-673F81F0ED67}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{83B360A5-98E8-4D8B-8485-8C56FD1AA53D}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{6818B67E-7D4B-4A2F-8979-DAD955C2C586}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{D8E7B053-E933-464B-818A-679D8B7F6C35}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{3F99481D-73DB-4178-8E68-BC8C62DB090E}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>

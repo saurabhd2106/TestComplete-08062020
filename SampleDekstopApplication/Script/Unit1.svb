@@ -1,0 +1,45 @@
+﻿
+'This is a comment
+
+REM This is another way of defining comment
+
+class LearnVBBasics
+  
+  public publicVariable
+  private privateVariable
+
+  Function learningVBScriptBasics
+    Dim var1
+    var1 = 19
+  
+  
+    Log.Message(TypeName(var1))
+  End Function
+
+
+  Function learningVBScript
+  
+    Dim var1
+    Dim var2
+  
+    var1 = 10
+    var2 = 15
+  
+    Log.Message(TypeName(var1))
+    Log.Message(TypeName(var2))
+  
+    Dim sum
+  
+    sum = var1 + var2
+  
+    Log.Message("Sum is = " & sum)
+  
+    Dim strVar
+    strVar = "Saurabh"
+  
+     Log.Message(TypeName(strVar))
+  
+  End Function
+
+End Class
+

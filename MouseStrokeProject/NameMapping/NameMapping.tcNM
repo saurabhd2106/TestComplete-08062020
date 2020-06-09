@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{F6896C1A-A08C-494A-BD37-B83BBA647CF5}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="mspaint" Key="{02B9F5DB-4AE8-4CA5-8855-D535C44B9AE4}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="mspaint" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndMSPaintApp" Key="{CAD12A73-8FBF-4354-82A1-00B9B51E2164}" ParallelWalk="True">
+								<Image FileName="75664715" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="MSPaintApp" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MSPaintView" Key="{E9C4F181-B5FB-44ED-BD9E-933FDC7FE022}" ParallelWalk="True">
+										<Image FileName="-822835548" Left="0" Top="139" Right="1366" Bottom="702" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="MSPaintView" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Afx" Key="{3C4DD843-0721-4D08-88EC-01E62E025C25}" ParallelWalk="True">
+												<Image FileName="-822835548" Left="0" Top="139" Right="1366" Bottom="702" />
+												<TypeInfo Item0="{2808578F-6288-46B9-A6D7-3A72007D07EF}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="Afx:*" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="UIRibbonDockTop" Key="{8C27F32C-8D4C-4013-9C07-9C51DECC385B}" ParallelWalk="True">
+										<Image FileName="75664715" Left="0" Top="23" Right="1366" Bottom="139" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="UIRibbonCommandBarDock" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="UIRibbonDockTop" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Ribbon" Key="{89A38C87-8663-4ADF-80CB-405557AFCF6E}" ParallelWalk="True">
+												<Image FileName="75664715" Left="0" Top="23" Right="1366" Bottom="139" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="UIRibbonCommandBar" Type="5" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value PropertyType="0" Value="Ribbon" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Ribbon" Key="{DEE183ED-66C8-494E-B016-2B34BD975E3D}" ParallelWalk="True">
+														<Image FileName="75664715" Left="0" Top="23" Right="1366" Bottom="139" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="UIRibbonWorkPane" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="Ribbon" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="NUIPane" Key="{7D2611D9-B792-4D40-9D89-0D74E2C4FB86}" ParallelWalk="True">
+																<Image FileName="75664715" Left="0" Top="23" Right="1366" Bottom="170" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value PropertyType="0" Value="NUIPane" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="NetUIHWND" Key="{B55959A4-2AB0-489C-8213-72A7E67D1219}" ParallelWalk="True">
+																		<Image FileName="75664715" Left="0" Top="-8" Right="1366" Bottom="139" />
+																		<TypeInfo Item0="{2808578F-6288-46B9-A6D7-3A72007D07EF}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="NetUIHWND" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndNetUIToolWindowLayered" Key="{CA81C25C-3603-4601-8593-8B70946B0484}" ParallelWalk="True">
+								<Image FileName="148863748" Left="0" Top="0" Right="519" Bottom="537" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="Net UI Tool Window Layered" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="NetUIHWND" Key="{A6CA2556-46CD-4547-B597-8450A3E26405}" ParallelWalk="True">
+										<Image FileName="148863748" Left="0" Top="0" Right="519" Bottom="537" />
+										<TypeInfo Item0="{2808578F-6288-46B9-A6D7-3A72007D07EF}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="NetUIHWND" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgPaint" Key="{F330BA56-3582-43F4-98FB-18FD6F24B450}" ParallelWalk="True">
+								<Image FileName="1018462766" Left="0" Top="0" Right="366" Bottom="141" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Paint" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Paint" Key="{D5C222BD-B767-4260-90BC-47F393EA406D}" ParallelWalk="True">
+										<Image FileName="1018462766" Left="8" Top="31" Right="358" Bottom="133" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value PropertyType="0" Value="DirectUI" Type="5" />
+											</Property>
+											<Property Name="ClassName">
+												<Value PropertyType="0" Value="TaskDialog" Type="5" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value PropertyType="0" Value="pane" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="Paint" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="CtrlNotifySink" Key="{7D8693BF-7FF2-4438-88FB-3DB3CFC48532}" ParallelWalk="True">
+												<Image FileName="1018462766" Left="178" Top="101" Right="270" Bottom="124" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="CtrlNotifySink" Type="5" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value PropertyType="0" Value="" Type="5" />
+													</Property>
+													<Property Name="Index">
+														<Value PropertyType="0" Value="8" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btnDontSave" Key="{638C23CF-B574-4686-9E6B-C573609CC42F}" ParallelWalk="True">
+														<Image FileName="1018462766" Left="178" Top="101" Right="270" Bottom="124" />
+														<TypeInfo Item0="{62F2FD11-0EBB-428A-B2AD-0D3F0CFA57F3}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value PropertyType="0" Value="Do&amp;n&apos;t Save" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="mspaint" Owner="{02B9F5DB-4AE8-4CA5-8855-D535C44B9AE4}">
+			<Child Name="wndMSPaintApp" Owner="{CAD12A73-8FBF-4354-82A1-00B9B51E2164}">
+				<Child Name="MSPaintView" Owner="{E9C4F181-B5FB-44ED-BD9E-933FDC7FE022}">
+					<Child Name="Afx" Owner="{3C4DD843-0721-4D08-88EC-01E62E025C25}" />
+				</Child>
+				<Child Name="UIRibbonDockTop" Owner="{8C27F32C-8D4C-4013-9C07-9C51DECC385B}">
+					<Child Name="Ribbon" Owner="{89A38C87-8663-4ADF-80CB-405557AFCF6E}">
+						<Child Name="Ribbon" Owner="{DEE183ED-66C8-494E-B016-2B34BD975E3D}">
+							<Child Name="NUIPane" Owner="{7D2611D9-B792-4D40-9D89-0D74E2C4FB86}">
+								<Child Name="NetUIHWND" Owner="{B55959A4-2AB0-489C-8213-72A7E67D1219}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndNetUIToolWindowLayered" Owner="{CA81C25C-3603-4601-8593-8B70946B0484}">
+				<Child Name="NetUIHWND" Owner="{A6CA2556-46CD-4547-B597-8450A3E26405}" />
+			</Child>
+			<Child Name="dlgPaint" Owner="{F330BA56-3582-43F4-98FB-18FD6F24B450}">
+				<Child Name="Paint" Owner="{D5C222BD-B767-4260-90BC-47F393EA406D}">
+					<Child Name="CtrlNotifySink" Owner="{7D8693BF-7FF2-4438-88FB-3DB3CFC48532}">
+						<Child Name="btnDontSave" Owner="{638C23CF-B574-4686-9E6B-C573609CC42F}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

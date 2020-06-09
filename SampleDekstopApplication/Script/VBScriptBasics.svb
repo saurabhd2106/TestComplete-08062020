@@ -1,0 +1,20 @@
+﻿
+Function Demo
+  Dim fNum
+  fNum = 30
+  
+  Dim sNum
+  sNum = 40
+
+  Call UpdateNumber(fNum, sNum)
+  
+  Log.Message("First Num - " & fNum & "Second Num - " & sNum)
+  
+End Function
+
+Function UpdateNumber(ByRef var1, ByRef var2)
+  
+  var1 = 10
+  var2 = 20
+
+End Function
