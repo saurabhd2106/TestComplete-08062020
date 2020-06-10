@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{2C326898-D0F3-449D-9E73-910B2008A69B}" ParallelWalk="True">
+				<TypeInfo Item0="{69EF0268-0D13-4DC0-A82F-71C0F7C42002}" />
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="WindowsFormsApp" Key="{736C74C3-C662-4AC1-B225-13736EAA19BE}" ParallelWalk="True">
+						<TypeInfo Item0="{54E9B904-DAF5-4883-AC23-20FDC78102BF}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="WindowsFormsApp" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Calculator" Key="{B5B3907C-A798-40E6-AF97-76D038670EE2}" ParallelWalk="True">
+								<Image FileName="1606126282" Left="0" Top="0" Right="447" Bottom="333" />
+								<TypeInfo Item0="{58A8C781-0D34-47B9-B2AA-5CCCA2756E25}" />
+								<Properties>
+									<Property Name="WinFormsControlName">
+										<Value PropertyType="0" Value="Calculator" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ResultBox" Key="{324AA543-664F-4D2F-A726-7D48287DC6DB}" ParallelWalk="True">
+										<Image FileName="1606126282" Left="217" Top="240" Right="341" Bottom="260" />
+										<TypeInfo Item0="{91AA99F8-BD7A-4CE2-8FB3-8D32FECAB290}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="ResultBox" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="FirstNumber" Key="{44DE4F71-FE21-4AC0-8330-A8E155D5E6C3}" ParallelWalk="True">
+										<Image FileName="2068814216" Left="217" Top="91" Right="341" Bottom="111" />
+										<TypeInfo Item0="{CEE7D280-C585-4799-8FDB-56F24B95578F}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="FirstNumber" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="SecondNumber" Key="{0E695B55-9E31-4801-B7C3-C7E4AFD690F1}" ParallelWalk="True">
+										<Image FileName="-453284477" Left="217" Top="136" Right="341" Bottom="156" />
+										<TypeInfo Item0="{CEE7D280-C585-4799-8FDB-56F24B95578F}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="SecondNumber" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="submit_button" Key="{A9922914-43A7-406A-AD5C-586C8DC8DBBD}" ParallelWalk="True">
+										<Image FileName="-1560685781" Left="245" Top="177" Right="313" Bottom="215" />
+										<TypeInfo Item0="{2A2BD817-6CB5-490F-9AE9-99D4B9AD4666}" />
+										<Properties>
+											<Property Name="WinFormsControlName">
+												<Value PropertyType="0" Value="submit_button" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlg" Key="{B14BA04D-F4BA-4B62-BB16-D635048B8BD8}" ParallelWalk="True">
+								<Image FileName="1620119968" Left="0" Top="0" Right="204" Bottom="140" />
+								<TypeInfo Item0="{2BE83219-DB47-4632-B9E5-AD3F5041A0D8}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnOK" Key="{E852C0D1-CD69-4D12-90C9-241C36C55D9F}" ParallelWalk="True">
+										<Image FileName="-124092192" Left="106" Top="99" Right="181" Bottom="122" />
+										<TypeInfo Item0="{F2322985-FC35-442C-8D7E-02B802AEC3D2}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="Button" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="OK" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="WindowsFormsApp" Owner="{736C74C3-C662-4AC1-B225-13736EAA19BE}">
+			<Child Name="Calculator" Owner="{B5B3907C-A798-40E6-AF97-76D038670EE2}">
+				<Child Name="ResultBox" Owner="{324AA543-664F-4D2F-A726-7D48287DC6DB}" />
+				<Child Name="FirstNumber" Owner="{44DE4F71-FE21-4AC0-8330-A8E155D5E6C3}" />
+				<Child Name="SecondNumber" Owner="{0E695B55-9E31-4801-B7C3-C7E4AFD690F1}" />
+				<Child Name="submit_button" Owner="{A9922914-43A7-406A-AD5C-586C8DC8DBBD}" />
+			</Child>
+			<Child Name="dlg" Owner="{B14BA04D-F4BA-4B62-BB16-D635048B8BD8}">
+				<Child Name="btnOK" Owner="{E852C0D1-CD69-4D12-90C9-241C36C55D9F}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
